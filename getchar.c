@@ -3,9 +3,10 @@
 
 
 int main() {
-	char c = getchar();
+char c;
+	while (c != '\n' ) {c = getchar();
 
-	putchar(c);
+	putchar(c);}
 
 	return 0;
 }
