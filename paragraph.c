@@ -3,13 +3,14 @@
 
 
 int main() {
-	char[100] buffer;
+	char buffer[1000];
 char c;
-	while (c != 'x' ) {c = getchar();
+	for (int i=0; c!= '.'; i++ ) {c = getchar();
+	buffer[i] = c;
+
 	
 	
-	putchar(c);
 	}
-fflush(stdout);
+printf("%s", buffer);
 	return 0;
 }
